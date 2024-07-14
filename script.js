@@ -1,13 +1,13 @@
 
 
-/*Funções de selção de cada tela*/ 
+/*Funções para trocar conteudo da tela*/ 
 
-function Dragões(Botão){
+function TrocaDeConteudo(Botão){
 
     var ImgDragão = document.getElementById("ImgDragão");
     var titulo = document.getElementById("Titulo");
     var descricao = document.getElementById("Descrição");
-    
+
     switch(Botão){
 
         case "B1":      
@@ -17,13 +17,13 @@ function Dragões(Botão){
             break;
 
         case "B2":
-                ImgDragão.src = "Imagens/Vhagar.jpg";
+                ImgDragão.src = "Imagens/Vhagar.png";
                 titulo.innerHTML = "Vhagar";
                 descricao.innerHTML = "O segundo maior dragão dos Targaryens é Vhagar, uma fêmea ancestral e a última que voou durante a conquista de Aegon, quando serviu a Rainha Visenya Targaryen. Juntos, destruíram toda a armada Arryn nas águas de Gulltown. Vhagar foi batizada em homenagem a um Deus de Old Valyria, e será protagonista de um capítulo posterior de House of the Dragon.";
             break;
 
         case "B3":
-            ImgDragão.src = "Imagens/Syrax.jpg";
+            ImgDragão.src = "Imagens/Syrax.png";
             titulo.innerHTML = "Syrax";
             descricao.innerHTML = "Syrax é a enorme e formidável fêmea da Princesa Rhaenyra (interpretada por Milly Alcock como jovem e Emma D’Arcy como adulta em House of the Dragon)";
 
@@ -64,3 +64,20 @@ function Dragões(Botão){
     }
 
 }
+
+
+/*Faz o botão ficar ativo até clicar em outro*/
+
+
+function ModoAtivo(button) {
+
+   
+    const buttons = document.querySelectorAll('.Botão');  /*procura todos os elementos .Botão no style.CSS* e armazena em "const buttons"*/
+
+    buttons.forEach(btn => btn.classList.remove('Ativado')); /*buttons.forEach(btn => btn.classList.remove('Ativado')); é usada para percorrer todos os elementos na NodeList buttons (que foi obtida usando document.querySelectorAll('.Botão')) e remover a classe 'Ativado' de cada um deles.*/
+
+    // Adiciona a classe 'active' ao botão clicado
+    return button.classList.add('Ativado'); /*.classList.add('Ativado') é usada para adicionar a classe 'Ativado' a um elemento específico. o botão clicado*/
+}
+
+/*Faz o botão ficar ativo até clicar em outro*/

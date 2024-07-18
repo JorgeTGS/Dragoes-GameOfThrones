@@ -1,11 +1,12 @@
 # Dragões - Game of Thrones 🌐 
 
-Este projeto é uma página web interativa dedicada aos dragões do universo de "Game of Thrones", com foco nos dragões Targaryen. Através da interação com botões, o usuário pode explorar informações detalhadas sobre cada dragão, incluindo imagens e descrições.
+Este projeto é uma página web interativa dedicada aos dragões do universo de "Game of Thrones", com foco nos dragões Targaryen. Através da interação com botões, o usuário pode explorar informações detalhadas sobre cada dragão, incluindo imagens e descrições. O site é completamente responsivo, proporcionando uma experiência agradável em qualquer dispositivo.
 
 ## Funcionalidades 🛠️
 
 - **Interatividade**: Os usuários podem clicar em botões para visualizar diferentes dragões e suas informações.
 - **Conteúdo Dinâmico**: As informações exibidas (nome, descrição e imagem) mudam dinamicamente.
+- **Design Responsivo:** O site adapta-se a vários tamanhos de tela, oferecendo uma experiência consistente em dispositivos móveis, tablets e desktops.
 
 ## Tecnologias Utilizadas 💻
 
